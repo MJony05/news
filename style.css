@@ -1,0 +1,276 @@
+header {
+  background-color: #161616;
+}
+header .container {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  color: white;
+}
+header .container a,
+header span {
+  text-decoration: none;
+  color: white;
+  font-weight: 300;
+  font-size: 0.9rem;
+  margin-right: 20px;
+}
+nav {
+  margin: 20px 0;
+  box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.2);
+}
+nav .container {
+  display: flex;
+  justify-content: space-between;
+}
+.navigation a {
+  color: black;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 600;
+  margin-right: 20px;
+  padding: 15px 5px;
+  display: inline-block;
+  text-decoration: none;
+}
+.search-icon {
+  padding: 15px 0;
+}
+.navigation a:hover {
+  color: #19bc9c;
+}
+.navigation a:focus {
+  border-bottom: 3px solid #19bc9c;
+  color: #19bc9c;
+}
+main .card {
+  background-image: linear-gradient(#00000050, #00000050), url(images/qwert.jpg);
+  background-size: cover;
+  background-position: center;
+}
+main .container {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  height: 80vh;
+  gap: 5px;
+}
+
+main .container .card:first-child {
+  grid-row: 1/3;
+}
+main .container .card:first-child h3 {
+  font-size: 30px;
+}
+main .card img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+main .card {
+  padding: 20px;
+  display: flex;
+  align-items: flex-end;
+}
+.life-content {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  padding-top: 30px;
+}
+.life-content > div {
+  width: 50%;
+}
+.big-card img {
+  width: 100%;
+  height: 250px;
+}
+.big-card .card-text h3 {
+  color: #161616;
+  font-size: 25px;
+}
+.big-card .card-text .info {
+  color: rgb(92, 92, 92);
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+.info2 {
+  font-size: 15px;
+  margin: 5px 0 20px;
+}
+.mini-card {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+  margin: 15px 0 20px;
+  align-items: center;
+}
+.mini-card img {
+  width: 120px;
+}
+.mini-card h3 {
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 5px 0;
+}
+.mini-card .info {
+  font-size: 13px;
+  color: #383737f8;
+}
+.right-title {
+  color: white;
+  padding: 10px 20px;
+  margin-top: -5px;
+  background-color: #161616;
+}
+.popular-sort {
+  display: flex;
+  text-align: center;
+  border-bottom: 1px solid black;
+  margin-bottom: 15px;
+}
+.popular-sort a {
+  text-decoration: none;
+  padding: 10px;
+  width: 33.3%;
+  display: inline-block;
+  color: #161616;
+}
+.popular-sort a:first-child {
+  border-bottom: 3px solid black;
+}
+.popular-sort a:hover {
+  border-bottom: 3px solid black;
+}
+.social-links {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+  gap: 5px;
+  margin-top: 20px;
+}
+.social-links a {
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+}
+.social-links i {
+  margin-right: 5px;
+}
+.fashion {
+  display: flex;
+
+  gap: 20px;
+  padding-top: 20px;
+}
+.fashion .mini-card {
+  margin: 0;
+  margin-bottom: 10px;
+}
+.quizzes {
+  padding-top: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+.big-right-card {
+  position: relative;
+}
+.big-right-card .category {
+  position: absolute;
+}
+.big-right-card .controller {
+  padding: 10px 15px;
+  color: white;
+  background-color: rgba(80, 80, 80, 0.493);
+  position: absolute;
+}
+.next-card {
+  top: 10px;
+  right: 20px;
+}
+.previus-card {
+  top: 10px;
+  right: 65px;
+}
+.hash-tags {
+  display: flex;
+  flex-wrap: wrap;
+}
+.hash-tags .tag {
+  background-color: #f4f4f4;
+  color: #989898;
+  padding: 10px 15px;
+  border-radius: 5px;
+  margin: 4px 6px 4px 0;
+}
+.question {
+  font-size: 15px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+label {
+  margin-bottom: 5px;
+  display: inline-block;
+  font-size: 15px;
+}
+.accept {
+  padding: 8px 18px;
+  background-color: #19bc9c;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  font-weight: 500;
+}
+.view {
+  padding: 10px 15px;
+  background-color: inherit;
+  border: none;
+  font-weight: 500;
+  text-decoration: underline;
+}
+button:hover {
+  cursor: pointer;
+}
+footer {
+  background-color: #1d1e20;
+}
+.top-footer {
+  display: flex;
+  gap: 20px;
+  padding: 30px 0;
+}
+.top-footer > div {
+  width: 33%;
+  color: white;
+}
+.footer-1 p {
+  font-size: 14px;
+  line-height: 1.5;
+  font-weight: 300;
+}
+.footer-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.footer-2 a {
+  text-decoration: none;
+  color: white;
+  margin: 5px 0;
+  letter-spacing: 1px;
+}
+.footer-2 a:hover {
+  text-decoration: underline;
+}
+.footer-3 i {
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.13);
+  margin-top: 15px;
+  margin-right: 5px;
+}

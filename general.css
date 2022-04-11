@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+.card {
+  position: relative;
+}
+
+.card h3 {
+  font-size: 16px;
+  color: white;
+  line-height: 1.5;
+}
+.card-text .info {
+  color: rgb(209, 208, 208);
+  font-size: 14px;
+  font-weight: 300;
+  margin-top: 10px;
+}
+
+.category {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  color: white;
+  padding: 5px 10px;
+  font-size: 14px;
+}
+/* #E44E4E */
+/* #04ABD8 */
+/* #30B233 */
+/* #161616 */
+.red {
+  background-color: #e44e4e;
+}
+.blue {
+  background-color: #04abd8;
+}
+.green {
+  background-color: #30b233;
+}
+.yellow {
+  background-color: #f9aa00;
+}
+.double {
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+.left-section {
+  width: 66.6%;
+}
+.right-section {
+  width: 33.3%;
+}
+.section-title {
+  border-bottom: 2px solid #e44e4e;
+  display: flex;
+  justify-content: space-between;
+}
+.section-title p {
+  padding: 6px 12px;
+  background-color: #e03b3b;
+  color: white;
+}
+.sort span {
+  display: inline-block;
+  margin-left: 10px;
+  color: rgb(116, 116, 116);
+  font-weight: 500;
+}
+.sort span:first-child {
+  color: #111;
+}
+.sort span:hover,
+.sort span:focus {
+  color: #111;
+  cursor: pointer;
+}
+.botttomm {
+  height: 300px;
+}
+.right-card {
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  height: 300px;
+}
+.right-card img {
+  z-index: -1;
+  width: 100%;
+  position: absolute;
+}
+.right-card .card-text {
+  padding: 20px;
+}
+.right-card h3 {
+  color: white;
+  margin: 10px 0;
+}
+.right-card span {
+  padding: 5px 10px;
+  font-size: 14px;
+}
+/* .right-title:not(first-child) {
+  margin: 50px 0 30px;
+} */
